@@ -1,0 +1,99 @@
+header{
+    background-image:url(./food\ image.jpg);
+    background-size:cover;
+    min-height: 100vh;
+    background-position: center,center;
+}
+.container{
+    width:1000px;
+    padding:2rem;
+    max-width:100%;
+    margin:0 auto;
+}
+.pre-nav{
+    font-size:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+nav{
+    padding:0.5rem;
+}
+a{
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo{
+    color:red;
+    font-weight:bold;
+    font-size:2rem;
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+    padding:10px;
+}
+nav li{
+    flex:1;
+}
+nav li a{
+    background-color:#2d99a4 ;
+    display:block;
+    padding:10px;
+    color:white;
+    text-align:center;
+
+}
+nav a.active{
+    background-color:white;
+    color:#026e78;
+    padding:10px 35px 10px 35px;
+    text-align:center;
+    font-weight: bold;
+}
+nav a.highlight{
+    background-color: cornflowerblue;
+    color:white;
+}
+nav a:hover{
+    opacity:0.8;
+}
+.content{
+    display: flex;
+    flex-direction:column ;
+    align-items:flex-start;
+    margin-top:5rem;
+    font-size:2rem;
+}
+.content h3{
+    background-color:#026e78;
+    color:white;
+    display:inline-block;
+    padding:1rem;
+    font-weight:100;
+}
+.white-link{
+    background-color: white;
+    color:#2d99a4;
+    
+}
+.teal-link{
+    color:white;
+    background-color: #2d99a4;
+    padding:1rem;
+    margin-top:2rem;
+}
+@media screen and (max-width:700px){
+    .pre-nav{
+        flex-direction:column;
+        justify-content:center;
+    }
+    .content{
+        font-size:1.5rem;
+    }
+    nav ul{
+        flex-direction:column;
+    }
+}

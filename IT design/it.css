@@ -1,0 +1,88 @@
+body{
+    font-family: "Roboto",sans-serif;
+    margin:0;
+}
+.container{
+    width:1000px;
+    max-width:100%;
+    margin:0 auto;
+    
+
+}
+.pic{
+    background-image: url(./images/office.jpg);
+    background-size: cover;
+    height:300px;
+    background-position: center center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 2rem;
+    font-weight: bold;
+    
+
+}
+.logo{
+    font-size:3rem;
+    margin-right:1rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.inner-nav{
+    flex:1;
+    
+}
+.big{
+    font-size:3rem;
+    margin:0
+}
+.blue{
+    color:#007ff4;
+    margin:0;
+}
+nav ul{
+    padding:0;
+    list-style-type: none;
+    margin:0;
+    display:flex;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    margin-left:2rem;
+}
+nav  a.active{
+    color:#007ff4;
+}
+.col{
+    padding:1rem;
+    flex:1;
+}
+.col img{
+    width:100%;
+    overflow: hidden;
+    
+}
+h2{
+    font-size:2rem;
+    text-align:center;
+}
+.text-center{
+    text-align:center;
+}
+button{
+    background-color: #007ff4;
+    border:none;
+    color:white;
+    font-size:1.5rem;
+    padding:1rem 2rem;
+}
+
